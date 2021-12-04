@@ -4,7 +4,7 @@
       {{ alertMessage }}
     </div>
     <div class="alert alert-success" v-if="alertMessagesuccess" role="alert">
-      {{ alertMessage }}
+      {{ alertMessagesuccess }}
     </div>
     <div class="card">
       <h5 class="card-header">Upload a video</h5>
