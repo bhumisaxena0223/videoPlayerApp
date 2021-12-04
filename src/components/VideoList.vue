@@ -80,7 +80,7 @@ export default {
     },
     uploadFile(event) {
       const files = event.target.files[0];
-      console.log(files, "files upload");
+      // console.log(files, "files upload");
       this.files = files;
     },
     handleSubmit() {
@@ -96,7 +96,7 @@ export default {
           axios
             .post(`${url.url}videos`, { videoname: response.data })
             .then((data) => {
-              console.log({ data });
+              // console.log({ data });
               if (data.status == 200) {
                 this.alertMessagesuccess = "File uploaded successfully.";
               }

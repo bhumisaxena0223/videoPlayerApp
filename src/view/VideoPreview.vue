@@ -77,7 +77,7 @@ export default {
         .then(({ data: resp }) => {
           this.videoDescription = resp.videoname;
           this.comments = resp.likes_and_comments;
-          console.log("j");
+          // console.log("j");
         })
         .catch(() => {});
     },
